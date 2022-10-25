@@ -1,13 +1,148 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('http://fonts.cdnfonts.com/css/baskerville');
+
+@font-face {
+  font-family: 'Pangea-Light';
+  src: url('./assets/PangeaText/PangeaTextTrial-Light.woff') format('woff'),
+  url('./assets/PangeaText/PangeaTextTrial-Light.woff2') format('woff2');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Pangea-Regular';
+  src: url('./assets/PangeaText/PangeaTextTrial-Regular.woff') format('woff'),
+  url('./assets/PangeaText/PangeaTextTrial-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pangea-Medium';
+  src: url('./assets/PangeaText/PangeaTextTrial-Medium.woff') format('woff'),
+  url('./assets/PangeaText/PangeaTextTrial-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Pangea-SemiBold';
+  src: url('./assets/PangeaText/PangeaTextTrial-SemiBold.woff') format('woff'),
+  url('./assets/PangeaText/PangeaTextTrial-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Baskerville-Normal';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville Normal'), url('./assets/Baskerville/baskvl.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville Regular'), url('./assets/Baskerville/baskervi.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-Light-Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville Light-Italic'), url('./assets/Baskerville/BASKE10.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville Light'), url('./assets/Baskerville/BASKE9.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-LightA';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville LightA'), url('./assets/Baskerville/BASKRV_L.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville Bold'), url('./assets/Baskerville/BASKE1.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville Bold'), url('./assets/Baskerville/Baskerville Bold font.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-BT-Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville-BT-Roman'), url('./assets/Baskerville/BaskervilleBT.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-BT-Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville BT Italic'), url('./assets/Baskerville/BaskervilleItalicBT.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-BT-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville BT Bold'), url('./assets/Baskerville/BaskervilleBoldBT.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-BT-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville BT Bold'), url('./assets/Baskerville/baskerville bold bt.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Baskerville-BT-Bold-Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Baskerville BT Bold Italic'), url('./assets/Baskerville/BaskervilleBoldItalicBT.woff') format('woff');
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #3D8361;
+	border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 0px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
 }
