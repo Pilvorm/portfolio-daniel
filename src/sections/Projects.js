@@ -47,7 +47,7 @@ const projectData = [
         id: 5,
         thumbnail: 'hishot',
         title: "HISHOT 2022",
-        description: "Event landing page held by HIMTI Binus University. Appointed as web development staff",
+        description: "Event landing page held by HIMTI Binus University. Appointed as web development staff.",
         tools: ['HTML', 'CSS', 'Bootstrap', 'JS'],
         visit: 'https://hishot.himtibinus.or.id/',
         github: 'https://github.com/himtibinus'
@@ -56,7 +56,7 @@ const projectData = [
         id: 6,
         thumbnail: 'techfest',
         title: "TECHFEST 2022",
-        description: "Event landing page held by HIMTI Binus University. Appointed as coordinator of web division",
+        description: "Landing page of new event held by HIMTI Binus University. Appointed as coordinator of web development division.",
         tools: ['HTML', 'CSS', 'Tailwind', 'React'],
         visit: 'https://techfest.himtibinus.or.id',
         github: 'https://github.com/himtibinus'
