@@ -29,7 +29,7 @@ const About = () => {
                     </h2>
                     <p className='font-[Baskerville-BT-Roman] text-xl text-center md:text-justify' style={{
                             transform: isInView ? "none" : "translateX(-100px)", opacity: isInView ? 1 : 0, transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-                        }}>Hello! I am a computer science major focusing on web development. I have always found designing fun, but bringing designs to life for people to see and use really gives a satisfying feeling for me. That feeling pushed me to learn more about web development and how I can improve my work. I also enjoy video games and movies!</p>
+                        }}>Hello! I am a computer science major focusing on web development. I have always found designing fun, but bringing designs to life for people to see and use really gives me a satisfying feeling. That feeling pushed me to learn more about web development and how I can improve my work. I also enjoy video games and movies!</p>
                 </div>
 
                 <div className='skills flex flex-col gap-14 md:gap-7' ref={ref}>
