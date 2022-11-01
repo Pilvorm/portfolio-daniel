@@ -58,7 +58,7 @@ const About = () => {
                     }}>
                     Certifications
                 </h2>
-                <div className='certifications flex max-xl:flex-col gap-14 justify-center items-center xl:justify-start'>
+                <div className='certifications flex max-xl:flex-col gap-14 justify-center items-center xl:justify-start xl:flex-wrap'>
                     <img src={responsive} alt="Responsive Web Design Certifications" className='w-[100%] sm:w-[75%] xl:w-[47.5%]'
                         style={{
                             transform: isInView ? "none" : "translateX(100px)", opacity: isInView ? 1 : 0, transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
