@@ -7,9 +7,33 @@ import { SiTailwindcss, SiJquery, SiRedux, SiMysql, SiAdobephotoshop, SiAdobelig
 import responsive from '../assets/responsive.png'
 import javascript from '../assets/javascript.png'
 import fundamental from '../assets/fundamental.jpg'
+import html from  '../assets/html.jpg'
 
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+
+const certificationData = [
+    {
+        img: responsive,
+        alt: 'Responsive Web Design'
+    },
+    {
+        img: javascript,
+        alt: 'JavaScript Algorithms and Data Structures'
+    },
+    {
+        img: fundamental,
+        alt: 'Web Development Fundamentals'
+    },
+    {
+        img: html,
+        alt: 'HTML'
+    }
+];
+
+const certificationList = certificationData.map((certification, index) => (
+    <img src={certification.img} alt={certification.alt} key={index} className='w-[85%] sm:w-[75%] xl:w-[47.5%]' />
+));
 
 const About = () => {
     const ref = useRef(null);
@@ -58,19 +82,10 @@ const About = () => {
                     }}>
                     Certifications
                 </h2>
-                <div className='certifications flex max-xl:flex-col gap-y-7 justify-center items-center xl:justify-between xl:flex-wrap'>
-                    <img src={responsive} alt="Responsive Web Design Certifications" className='w-[100%] sm:w-[75%] xl:w-[47.5%]'
-                        style={{
-                            transform: isInView ? "none" : "translateX(100px)", opacity: isInView ? 1 : 0, transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-                        }} />
-                    <img src={javascript} alt="Responsive Web Design Certifications" className='w-[100%] sm:w-[75%] xl:w-[47.5%]'
-                        style={{
-                            transform: isInView ? "none" : "translateX(100px)", opacity: isInView ? 1 : 0, transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-                        }} />
-                    <img src={fundamental} alt="Responsive Web Design Certifications" className='w-[100%] sm:w-[75%] xl:w-[47.5%]'
-                        style={{
-                            transform: isInView ? "none" : "translateX(100px)", opacity: isInView ? 1 : 0, transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-                        }} />
+                <div className='certifications flex max-h-[950px] lg:max-h-[750px] overflow-y-auto max-xl:flex-col gap-y-7 items-center xl:justify-between xl:flex-wrap' style={{
+                    transform: isInView ? "none" : "translateX(100px)", opacity: isInView ? 1 : 0, transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                }}>
+                    {certificationList}
                 </div>
             </div>
         </div>

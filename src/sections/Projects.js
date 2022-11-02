@@ -100,7 +100,7 @@ const projectData = [
 ];
 
 const projectList = projectData.map((project) => (
-    <div className='project-card w-[100%] sm:w-[47.5%] lg:w-[30%] flex flex-col gap-5 px-5 py-8' key={project.id}>
+    <div className='project-card w-[85%] sm:w-[47.5%] lg:w-[30%] flex flex-col gap-5 px-5 py-8' key={project.id}>
         <a href={project.visit} target='_blank'>
             <img
                 src={require('../assets/' +
@@ -114,12 +114,12 @@ const projectList = projectData.map((project) => (
         <p className='font-[Baskerville-BT-Roman]'>{project.description}</p>
         <div className='tool-list flex flex-wrap gap-x-[2px] gap-y-[2px] items-center justify-self-end'>
             {project.tools.map((tool, index) => (
-                <p key={index}className='tool text-sm font-[Pangea-Light] px-5 h-8 text-white bg-[#1C6758] flex justify-center items-center'>{tool}</p>
+                <p key={index} className='tool text-sm font-[Pangea-Light] px-5 h-8 text-white bg-[#1C6758] flex justify-center items-center'>{tool}</p>
             ))}
             <a href={project.github} target='_blank' className='px-5 h-8 text-white bg-[#1C6758] flex justify-center items-center hover:bg-[#3D8361] transition-all'><FaGithub size={24} /></a>
         </div>
     </div>
-))
+));
 
 const Projects = () => {
     const ref = useRef(null);
@@ -134,8 +134,9 @@ const Projects = () => {
                 Projects
             </h2>
             <div className='project-list max-md:max-h-[1250px] overflow-y-auto flex flex-wrap gap-y-14 justify-center sm:justify-between'
-            style={{transform: isInView ? "none" : "translateY(100px)", opacity: isInView ? 1 : 0, transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
-        }}>
+                style={{
+                    transform: isInView ? "none" : "translateY(100px)", opacity: isInView ? 1 : 0, transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                }}>
 
                 {projectList}
 
