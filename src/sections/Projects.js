@@ -133,7 +133,7 @@ const Projects = () => {
                 }}>
                 Projects
             </h2>
-            <div className='project-list max-md:max-h-[1250px] overflow-y-auto flex flex-wrap gap-y-14 justify-center sm:justify-between'
+            <div className='project-list max-md:max-h-[1250px] overflow-y-auto flex flex-wrap gap-y-14 justify-center max-sm:items-center sm:justify-between'
                 style={{
                     transform: isInView ? "none" : "translateY(100px)", opacity: isInView ? 1 : 0, transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
                 }}>
