@@ -50,6 +50,11 @@ nav ul a:hover::before {
       -ms-user-select: none;
           user-select: none;
 }
+.hero .cv-btn:hover {
+  background-color: transparent;
+  color: #1C6758;
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
 
 .about .left .skills .skill-list {
   color: #3D8361;
