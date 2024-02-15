@@ -15,7 +15,6 @@ import {
   SiNextdotjs,
   SiCypress,
   SiTailwindcss,
-  SiGitlab,
   SiPostman,
   SiJquery,
   SiRedux,
@@ -26,7 +25,6 @@ import {
 } from "react-icons/si";
 
 import { certificationData } from "../data";
-import { skills } from "../data";
 
 import { useRef } from "react";
 import { useInView } from "framer-motion";
@@ -44,6 +42,19 @@ const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true }, { threshold: 0.2 });
 
+  const animate = {
+    right: {
+      transform: isInView ? "none" : "translateX(-100px)",
+      opacity: isInView ? 1 : 0,
+      transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+    },
+    left: {
+      transform: isInView ? "none" : "translateX(100px)",
+      opacity: isInView ? 1 : 0,
+      transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+    },
+  };
+
   return (
     <div
       className="about
@@ -57,21 +68,13 @@ const About = () => {
         <div className="desc flex flex-col gap-14 md:gap-7">
           <h2
             className="font-[Pangea-Regular] text-4xl text-center md:text-left"
-            style={{
-              transform: isInView ? "none" : "translateX(-100px)",
-              opacity: isInView ? 1 : 0,
-              transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-            }}
+            style={animate.right}
           >
             About
           </h2>
           <p
             className="font-[Baskerville-BT-Roman] text-xl text-center md:text-justify"
-            style={{
-              transform: isInView ? "none" : "translateX(-100px)",
-              opacity: isInView ? 1 : 0,
-              transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-            }}
+            style={animate.right}
           >
             Hello! I am a computer science major focusing on web development. I
             have always found designing fun, but bringing designs to life for
@@ -84,21 +87,13 @@ const About = () => {
         <div className="skills flex flex-col gap-14 md:gap-7" ref={ref}>
           <h2
             className="font-[Pangea-Regular] text-4xl text-center md:text-left"
-            style={{
-              transform: isInView ? "none" : "translateX(-100px)",
-              opacity: isInView ? 1 : 0,
-              transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-            }}
+            style={animate.right}
           >
             Skills
           </h2>
           <div
             className="skill-list flex flex-wrap gap-7 justify-center md:justify-start"
-            style={{
-              transform: isInView ? "none" : "translateX(-100px)",
-              opacity: isInView ? 1 : 0,
-              transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-            }}
+            style={animate.right}
           >
             <AiFillHtml5 size={50} title="HTML" />{" "}
             <DiCss3 size={50} title="CSS" />{" "}
@@ -128,21 +123,13 @@ const About = () => {
       <div className="right flex flex-col gap-14 md:gap-7 h-auto" ref={ref}>
         <h2
           className="font-[Pangea-Regular] text-4xl max-xl:text-center"
-          style={{
-            transform: isInView ? "none" : "translateX(100px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-          }}
+          style={animate.left}
         >
           Certifications
         </h2>
         <div
           className="certifications flex max-h-[950px] lg:max-h-[750px] overflow-y-auto max-xl:flex-col gap-y-7 items-center xl:justify-between xl:flex-wrap"
-          style={{
-            transform: isInView ? "none" : "translateX(100px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-          }}
+          style={animate.left}
         >
           {certificationList}
         </div>
