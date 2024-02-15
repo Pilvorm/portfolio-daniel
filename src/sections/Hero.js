@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineDownload } from 'react-icons/ai'
-import CV from '../assets/cv.pdf'
+import CV from '../assets/CV-Daniel Emerald Sumarly.pdf'
 import { motion } from 'framer-motion'
 
 const Hero = () => {
