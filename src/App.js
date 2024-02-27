@@ -6,6 +6,8 @@ import About from './sections/About';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
 
   const about = useRef(null);
@@ -43,6 +45,7 @@ function App() {
         <Contact />
       </div>
       
+      <Analytics/>
     </div>
   );
 }
