@@ -2,6 +2,13 @@ import responsive from "./assets/responsive.png";
 import javascript from "./assets/javascript.png";
 import fundamental from "./assets/fundamental.jpg";
 import html from "./assets/html.jpg";
+import metaIntro from "./assets/metaIntro.png"
+import metaJavascript from "./assets/metaJavascript.png"
+import metaVersionControl from "./assets/metaVersionControl.png"
+import metaHtmlCss from "./assets/metaHtmlCss.png"
+import metaReact from "./assets/metaReact.png"
+import metaAdvancedReact from "./assets/metaAdvancedReact.png"
+
 
 export const certificationData = [
   {
@@ -11,6 +18,30 @@ export const certificationData = [
   {
     img: javascript,
     alt: "JavaScript Algorithms and Data Structures",
+  },
+  {
+    img: metaIntro,
+    alt: "Introduction to Front-end Development",
+  },
+  {
+    img: metaJavascript,
+    alt: "Programming with Javascript",
+  },
+  {
+    img: metaVersionControl,
+    alt: "Version Control",
+  },
+  {
+    img: metaHtmlCss,
+    alt: "HTML and CSS in depth",
+  },
+  {
+    img: metaReact,
+    alt: "React Basics",
+  },
+  {
+    img: metaAdvancedReact,
+    alt: "AdvancedReact",
   },
   {
     img: fundamental,

@@ -34,6 +34,7 @@ const certificationList = certificationData.map((certification, index) => (
     key={index}
     src={certification.img}
     alt={certification.alt}
+    title={certification.alt}
     className="w-[85%] sm:w-[75%] xl:w-[47.5%]"
   />
 ));
@@ -128,7 +129,7 @@ const About = () => {
           Certifications
         </h2>
         <div
-          className="certifications flex max-h-[950px] lg:max-h-[750px] overflow-y-auto max-xl:flex-col gap-y-7 items-center xl:justify-between xl:flex-wrap"
+          className="certifications flex max-h-[850px] lg:max-h-[550px] overflow-y-auto max-xl:flex-col gap-y-7 items-center xl:justify-between xl:flex-wrap"
           style={animate.left}
         >
           {certificationList}
