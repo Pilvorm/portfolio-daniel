@@ -8,6 +8,7 @@ import metaVersionControl from "./assets/metaVersionControl.png"
 import metaHtmlCss from "./assets/metaHtmlCss.png"
 import metaReact from "./assets/metaReact.png"
 import metaAdvancedReact from "./assets/metaAdvancedReact.png"
+import metaUXUI from "./assets/metaUXUI.png"
 
 
 export const certificationData = [
@@ -44,6 +45,10 @@ export const certificationData = [
     alt: "AdvancedReact",
   },
   {
+    img: metaUXUI,
+    alt: "Principles of UX/UI Design",
+  },
+  {
     img: fundamental,
     alt: "Web Development Fundamentals",
   },
@@ -66,7 +71,7 @@ export const projectData = [
         thumbnail: 'caffeinline',
         title: "Caffein Line",
         description: "A landing page of an online cafe serving beverages and desserts.",
-        tools: ['HTML', 'SCSS', 'Tailwind', 'jQuery', 'Swiper'],
+        tools: ['HTML', 'SCSS', 'Tailwind', 'jQuery'],
         visit: 'https://caffeinline.netlify.app/',
         github: 'https://github.com/Pilvorm/Caffein-Line'
     },
