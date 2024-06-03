@@ -9,6 +9,7 @@ import metaHtmlCss from "./assets/metaHtmlCss.png";
 import metaReact from "./assets/metaReact.png";
 import metaAdvancedReact from "./assets/metaAdvancedReact.png";
 import metaUXUI from "./assets/metaUXUI.png";
+import metaCapstone from "./assets/metaCapstone.png";
 
 export const certificationData = [
   {
@@ -46,6 +47,10 @@ export const certificationData = [
   {
     img: metaUXUI,
     alt: "Principles of UX/UI Design",
+  },
+  {
+    img: metaCapstone,
+    alt: "Front-End Developer Capstone",
   },
   {
     img: fundamental,
