@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <h1 className="font-[Pangea-Regular] text-5xl">Daniel Sumarly</h1>
       <p className="font-[Baskerville-BT-Roman] italic text-3xl">
-        Web Developer
+        Front-End Developer
       </p>
       <motion.div
         initial={{ opacity: 0, y: "50" }}
