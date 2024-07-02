@@ -3,6 +3,38 @@ $cargo: #D6CDA4;
 $light-green: #3D8361;
 $dark-green: #1C6758;
 
+.link-hover {
+    /* display: block; */
+    position: relative;
+    text-decoration: none;
+    color: black;
+    transition: 0.125s all ease-in-out;
+}
+
+.link-hover:hover {
+    color: $dark-green;
+    /* font-size: 1.15em; */
+    transition: 0.125s all ease-in-out;
+}
+
+.link-hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    background-color: $dark-green;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.link-hover:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
 body {
     background-color: $main-color;
 }
@@ -11,37 +43,11 @@ nav {
     z-index: 999;
     background-color: $main-color;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
     ul {
         a {
+            @extend .link-hover;
             cursor: pointer;
-            position: relative;
-            text-decoration: none;
-            color: black;
-            transition: 0.125s all ease-in-out;
-        }
-        
-        a:hover {
-            color: $dark-green;
-            /* font-size: 1.15em; */
-            transition: 0.125s all ease-in-out;
-        }
-        
-        a::before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background-color: $dark-green;
-            bottom: 0;
-            left: 0;
-            transform-origin: right;
-            transform: scaleX(0);
-            transition: transform .3s ease-in-out;
-        }
-        
-        a:hover::before {
-            transform-origin: left;
-            transform: scaleX(1);
         }
     }
 }
@@ -67,12 +73,8 @@ nav {
 }
 
 .about {
-    .left {
-        .skills {
-            .skill-list {
-                color: $light-green;
-            }
-        }
+    .skill-list {
+        color: $light-green;
     }
 }
 
@@ -102,35 +104,7 @@ nav {
 .contact {
     .socials-list {
         a {
-            /* display: block; */
-            position: relative;
-            text-decoration: none;
-            color: black;
-            transition: 0.125s all ease-in-out;
-        }
-        
-        a:hover {
-            color: $dark-green;
-            /* font-size: 1.15em; */
-            transition: 0.125s all ease-in-out;
-        }
-        
-        a::before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background-color: $dark-green;
-            bottom: 0;
-            left: 0;
-            transform-origin: right;
-            transform: scaleX(0);
-            transition: transform .3s ease-in-out;
-        }
-        
-        a:hover::before {
-            transform-origin: left;
-            transform: scaleX(1);
+            @extend .link-hover;
         }
     }
 }
