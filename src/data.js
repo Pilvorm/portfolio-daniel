@@ -10,6 +10,8 @@ import metaReact from "./assets/metaReact.png";
 import metaAdvancedReact from "./assets/metaAdvancedReact.png";
 import metaUXUI from "./assets/metaUXUI.png";
 import metaCapstone from "./assets/metaCapstone.png";
+import metaCoding from "./assets/metaCoding.png";
+import metaFE from "./assets/metaFE.png";
 
 export const certificationData = [
   {
@@ -19,6 +21,10 @@ export const certificationData = [
   {
     img: javascript,
     alt: "JavaScript Algorithms and Data Structures",
+  },
+  {
+    img: metaFE,
+    alt: "Meta Front-End Developer Specialization",
   },
   {
     img: metaIntro,
@@ -51,6 +57,10 @@ export const certificationData = [
   {
     img: metaCapstone,
     alt: "Front-End Developer Capstone",
+  },
+  {
+    img: metaCoding,
+    alt: "Coding Interview Preparation",
   },
   {
     img: fundamental,

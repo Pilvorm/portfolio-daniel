@@ -77,11 +77,11 @@ const About = () => {
             className="font-[Baskerville-BT-Roman] text-xl text-center md:text-justify"
             style={animate.right}
           >
-            Hello! I am a computer science major focusing on front-end web development. I
+            Hello! I am a computer science fresh graduate focusing on front-end web development. I
             have always found designing fun, but bringing designs to life for
             people to see and use really gives me a satisfying feeling. That
             feeling pushed me to learn more about web development and how I can
-            improve my work. I also enjoy video games, music and movies!
+            improve my work. I also enjoy movies, music, and video games!
           </p>
         </div>
 
