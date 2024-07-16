@@ -1,73 +1,58 @@
-import responsive from "./assets/responsive.png";
-import javascript from "./assets/javascript.png";
-import fundamental from "./assets/fundamental.jpg";
-import html from "./assets/html.jpg";
-import metaIntro from "./assets/metaIntro.png";
-import metaJavascript from "./assets/metaJavascript.png";
-import metaVersionControl from "./assets/metaVersionControl.png";
-import metaHtmlCss from "./assets/metaHtmlCss.png";
-import metaReact from "./assets/metaReact.png";
-import metaAdvancedReact from "./assets/metaAdvancedReact.png";
-import metaUXUI from "./assets/metaUXUI.png";
-import metaCapstone from "./assets/metaCapstone.png";
-import metaCoding from "./assets/metaCoding.png";
-import metaFE from "./assets/metaFE.png";
-
 export const certificationData = [
   {
-    img: responsive,
+    img: "responsive",
     alt: "Responsive Web Design",
   },
   {
-    img: javascript,
+    img: "javascript",
     alt: "JavaScript Algorithms and Data Structures",
   },
   {
-    img: metaFE,
+    img: "metaFE",
     alt: "Meta Front-End Developer Specialization",
   },
   {
-    img: metaIntro,
+    img: "metaIntro",
     alt: "Introduction to Front-end Development",
   },
   {
-    img: metaJavascript,
+    img: "metaJavascript",
     alt: "Programming with Javascript",
   },
   {
-    img: metaVersionControl,
+    img: "metaVersionControl",
     alt: "Version Control",
   },
   {
-    img: metaHtmlCss,
+    img: "metaHtmlCss",
     alt: "HTML and CSS in depth",
   },
   {
-    img: metaReact,
+    img: "metaReact",
     alt: "React Basics",
   },
   {
-    img: metaAdvancedReact,
+    img: "metaAdvancedReact",
     alt: "AdvancedReact",
   },
   {
-    img: metaUXUI,
+    img: "metaUXUI",
     alt: "Principles of UX/UI Design",
   },
   {
-    img: metaCapstone,
+    img: "metaCapstone",
     alt: "Front-End Developer Capstone",
   },
   {
-    img: metaCoding,
+    img: "metaCoding",
     alt: "Coding Interview Preparation",
   },
   {
-    img: fundamental,
+    img: "fundamental",
     alt: "Web Development Fundamentals",
   },
   {
-    img: html,
+    img: "html",
     alt: "HTML",
   },
 ];
@@ -92,6 +77,16 @@ export const projectData = [
   },
   {
     id: 2,
+    thumbnail: "logbook",
+    title: "E-Logbook",
+    description:
+      "Microservices web app for intern logbook management.",
+    tools: ["Next.js", "Bootstrap", "Redux", "Cypress"],
+    visit: "",
+    github: "https://github.com/Pilvorm",
+  },
+  {
+    id: 3,
     thumbnail: "caffeinline",
     title: "Caffein Line",
     description:
@@ -101,7 +96,7 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Caffein-Line",
   },
   {
-    id: 3,
+    id: 4,
     thumbnail: "TributePageNew",
     title: "Cordae Tribute Page (Reimagined)",
     description:
@@ -111,7 +106,7 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Cordae-Tribute-Page-Reimagined",
   },
   {
-    id: 4,
+    id: 5,
     thumbnail: "Markdown",
     title: "Markdown Previewer",
     description: "A tool to preview markdowns.",
@@ -120,7 +115,7 @@ export const projectData = [
     github: "https://github.com/Pilvorm/markdown-previewer",
   },
   {
-    id: 5,
+    id: 6,
     thumbnail: "Quote",
     title: "Random Movie Quote Generator",
     description: "Get a random quote from iconic movies!",
@@ -129,7 +124,7 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Random-Movie-Quote",
   },
   {
-    id: 6,
+    id: 7,
     thumbnail: "hishot",
     title: "HISHOT 2022",
     description:
@@ -139,7 +134,7 @@ export const projectData = [
     github: "https://github.com/himtibinus",
   },
   {
-    id: 7,
+    id: 8,
     thumbnail: "techfest",
     title: "TECHFEST 2022",
     description:
@@ -149,7 +144,7 @@ export const projectData = [
     github: "https://github.com/himtibinus",
   },
   {
-    id: 8,
+    id: 9,
     thumbnail: "Documentation",
     title: "C Language Documentation",
     description: "A documentation of C programming language.",
@@ -158,7 +153,7 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Technical-Documentation",
   },
   {
-    id: 9,
+    id: 10,
     thumbnail: "SurveyForm",
     title: "Streaming Site Survey Form",
     description: "A survey form of a streaming website.",
@@ -167,7 +162,7 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Survey-Form",
   },
   {
-    id: 10,
+    id: 11,
     thumbnail: "lego",
     title: "Product Landing Page",
     description:
@@ -176,13 +171,13 @@ export const projectData = [
     visit: "https://legoproductlanding.netlify.app/",
     github: "https://github.com/Pilvorm/Product-Landing",
   },
-  // {
-  //   id: 11,
-  //   thumbnail: "TributePageOld",
-  //   title: "Cordae Tribute Page (Legacy)",
-  //   description: "Older version of a tribute page about Cordae.",
-  //   tools: ["HTML", "SCSS"],
-  //   visit: "https://cordae-tribute-page.vercel.app/",
-  //   github: "https://github.com/Pilvorm/Cordae-Tribute-Page",
-  // },
+  {
+    id: 12,
+    thumbnail: "TributePageOld",
+    title: "Cordae Tribute Page (Legacy)",
+    description: "Older version of a tribute page about Cordae.",
+    tools: ["HTML", "SCSS"],
+    visit: "https://cordae-tribute-page.vercel.app/",
+    github: "https://github.com/Pilvorm/Cordae-Tribute-Page",
+  },
 ];

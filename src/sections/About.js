@@ -32,7 +32,7 @@ import { useInView } from "framer-motion";
 const certificationList = certificationData.map((certification, index) => (
   <img
     key={index}
-    src={certification.img}
+    src={require("../assets/" + certification.img + ".png")}
     alt={certification.alt}
     title={certification.alt}
     className="w-[85%] sm:w-[75%] xl:w-[47.5%]"
