@@ -17,12 +17,14 @@ function Contact() {
     right: {
       transform: isInView ? "none" : "translateX(-100px)",
       opacity: isInView ? 1 : 0,
-      transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+      transition:
+        "transform 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s, opacity 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s,color 0.125s ease-in-out",
     },
     left: {
       transform: isInView ? "none" : "translateX(100px)",
       opacity: isInView ? 1 : 0,
-      transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+      transition:
+        "transform 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s, opacity 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s, color 0.125s ease-in-out",
     },
   };
 
