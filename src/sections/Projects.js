@@ -7,10 +7,10 @@ import { useInView } from "framer-motion";
 
 import { projectData } from "../data";
 
-const projectList = projectData.map((project) => (
+const projectList = projectData.map((project, index) => (
   <div
     className="project-card w-[85%] sm:w-[47.5%] lg:w-[30%] flex flex-col gap-5 px-5 py-8"
-    key={project.id}
+    key={index}
   >
     <a href={project.visit} target="_blank" rel="noreferrer">
       <img
