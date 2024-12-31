@@ -66,7 +66,15 @@ export const skillData = [
 
 export const projectData = [
   {
-    id: 1,
+    thumbnail: "notes",
+    title: "Notes App",
+    description:
+      "A note-taking app.",
+    tools: ["React", "SCSS", "Bootstrap"],
+    visit: "https://notes-app-git-master-pilvorms-projects.vercel.app/",
+    github: "https://github.com/Pilvorm/notes-app",
+  },
+  {
     thumbnail: "littlelemon",
     title: "Little Lemon",
     description:
@@ -76,7 +84,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/little-lemon",
   },
   {
-    id: 2,
     thumbnail: "logbook",
     title: "E-Logbook",
     description:
@@ -86,7 +93,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm",
   },
   {
-    id: 3,
     thumbnail: "caffeinline",
     title: "Caffein Line",
     description:
@@ -96,7 +102,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Caffein-Line",
   },
   {
-    id: 4,
     thumbnail: "TributePageNew",
     title: "Cordae Tribute Page (Reimagined)",
     description:
@@ -106,7 +111,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Cordae-Tribute-Page-Reimagined",
   },
   {
-    id: 5,
     thumbnail: "Markdown",
     title: "Markdown Previewer",
     description: "A tool to preview markdowns.",
@@ -115,7 +119,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/markdown-previewer",
   },
   {
-    id: 6,
     thumbnail: "Quote",
     title: "Random Movie Quote Generator",
     description: "Get a random quote from iconic movies!",
@@ -124,7 +127,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Random-Movie-Quote",
   },
   {
-    id: 7,
     thumbnail: "hishot",
     title: "HISHOT 2022",
     description:
@@ -134,7 +136,6 @@ export const projectData = [
     github: "https://github.com/himtibinus",
   },
   {
-    id: 8,
     thumbnail: "techfest",
     title: "TECHFEST 2022",
     description:
@@ -144,7 +145,6 @@ export const projectData = [
     github: "https://github.com/himtibinus",
   },
   {
-    id: 9,
     thumbnail: "Documentation",
     title: "C Language Documentation",
     description: "A documentation of C programming language.",
@@ -153,7 +153,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Technical-Documentation",
   },
   {
-    id: 10,
     thumbnail: "SurveyForm",
     title: "Streaming Site Survey Form",
     description: "A survey form of a streaming website.",
@@ -162,7 +161,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Survey-Form",
   },
   {
-    id: 11,
     thumbnail: "lego",
     title: "Product Landing Page",
     description:
@@ -172,7 +170,6 @@ export const projectData = [
     github: "https://github.com/Pilvorm/Product-Landing",
   },
   {
-    id: 12,
     thumbnail: "TributePageOld",
     title: "Cordae Tribute Page (Legacy)",
     description: "Older version of a tribute page about Cordae.",
