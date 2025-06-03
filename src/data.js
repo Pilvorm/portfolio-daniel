@@ -66,6 +66,15 @@ export const skillData = [
 
 export const projectData = [
   {
+    thumbnail: "spacetourism",
+    title: "Space Tourism",
+    description:
+      "Go to outer space.",
+    tools: ["Next.js", "Tailwind", "GSAP", "Framer Motion"],
+    visit: "https://space-tourism-sand-six.vercel.app/",
+    github: "https://github.com/Pilvorm/space-tourism",
+  },
+  {
     thumbnail: "notes",
     title: "Notes App",
     description:
@@ -152,14 +161,14 @@ export const projectData = [
     visit: "https://c-language-documentation.vercel.app/",
     github: "https://github.com/Pilvorm/Technical-Documentation",
   },
-  {
-    thumbnail: "SurveyForm",
-    title: "Streaming Site Survey Form",
-    description: "A survey form of a streaming website.",
-    tools: ["HTML", "CSS"],
-    visit: "https://survey-form-ecru.vercel.app/",
-    github: "https://github.com/Pilvorm/Survey-Form",
-  },
+  // {
+  //   thumbnail: "SurveyForm",
+  //   title: "Streaming Site Survey Form",
+  //   description: "A survey form of a streaming website.",
+  //   tools: ["HTML", "CSS"],
+  //   visit: "https://survey-form-ecru.vercel.app/",
+  //   github: "https://github.com/Pilvorm/Survey-Form",
+  // },
   {
     thumbnail: "lego",
     title: "Product Landing Page",
@@ -169,12 +178,12 @@ export const projectData = [
     visit: "https://legoproductlanding.netlify.app/",
     github: "https://github.com/Pilvorm/Product-Landing",
   },
-  {
-    thumbnail: "TributePageOld",
-    title: "Cordae Tribute Page (Legacy)",
-    description: "Older version of a tribute page about Cordae.",
-    tools: ["HTML", "SCSS"],
-    visit: "https://cordae-tribute-page.vercel.app/",
-    github: "https://github.com/Pilvorm/Cordae-Tribute-Page",
-  },
+  // {
+  //   thumbnail: "TributePageOld",
+  //   title: "Cordae Tribute Page (Legacy)",
+  //   description: "Older version of a tribute page about Cordae.",
+  //   tools: ["HTML", "SCSS"],
+  //   visit: "https://cordae-tribute-page.vercel.app/",
+  //   github: "https://github.com/Pilvorm/Cordae-Tribute-Page",
+  // },
 ];
