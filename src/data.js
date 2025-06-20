@@ -68,8 +68,7 @@ export const projectData = [
   {
     thumbnail: "spacetourism",
     title: "Space Tourism",
-    description:
-      "Go to outer space.",
+    description: "Go to outer space.",
     tools: ["Next.js", "Tailwind", "GSAP", "Framer Motion"],
     visit: "https://space-tourism-sand-six.vercel.app/",
     github: "https://github.com/Pilvorm/space-tourism",
@@ -77,8 +76,7 @@ export const projectData = [
   {
     thumbnail: "notes",
     title: "Notes App",
-    description:
-      "A note-taking app.",
+    description: "An application for capturing notes.",
     tools: ["React", "SCSS", "Bootstrap"],
     visit: "https://notes-app-git-master-pilvorms-projects.vercel.app/",
     github: "https://github.com/Pilvorm/notes-app",
@@ -86,8 +84,7 @@ export const projectData = [
   {
     thumbnail: "littlelemon",
     title: "Little Lemon",
-    description:
-      "Landing page of a restaurant allowing online reservations.",
+    description: "Landing page of a restaurant allowing online reservations.",
     tools: ["React", "SCSS", "Bootstrap"],
     visit: "https://little-lemon-chg.vercel.app/",
     github: "https://github.com/Pilvorm/little-lemon",
@@ -95,8 +92,7 @@ export const projectData = [
   {
     thumbnail: "logbook",
     title: "E-Logbook",
-    description:
-      "Microservices web app for intern logbook management.",
+    description: "Microservices web app for intern logbook management.",
     tools: ["Next.js", "Bootstrap", "Redux", "Cypress"],
     visit: "",
     github: "https://github.com/Pilvorm",
@@ -128,12 +124,13 @@ export const projectData = [
     github: "https://github.com/Pilvorm/markdown-previewer",
   },
   {
-    thumbnail: "Quote",
-    title: "Random Movie Quote Generator",
-    description: "Get a random quote from iconic movies!",
-    tools: ["HTML", "SCSS", "jQuery"],
-    visit: "https://random-movie-quotes.vercel.app/",
-    github: "https://github.com/Pilvorm/Random-Movie-Quote",
+    thumbnail: "techfest",
+    title: "TECHFEST 2022",
+    description:
+      "Landing page of new event held by HIMTI Binus University. Appointed as coordinator of web development division.",
+    tools: ["HTML", "CSS", "Tailwind", "React"],
+    visit: "https://techfest.himtibinus.or.id",
+    github: "https://github.com/himtibinus",
   },
   {
     thumbnail: "hishot",
@@ -145,13 +142,12 @@ export const projectData = [
     github: "https://github.com/himtibinus",
   },
   {
-    thumbnail: "techfest",
-    title: "TECHFEST 2022",
-    description:
-      "Landing page of new event held by HIMTI Binus University. Appointed as coordinator of web development division.",
-    tools: ["HTML", "CSS", "Tailwind", "React"],
-    visit: "https://techfest.himtibinus.or.id",
-    github: "https://github.com/himtibinus",
+    thumbnail: "Quote",
+    title: "Random Movie Quote Generator",
+    description: "Get a random quote from iconic movies!",
+    tools: ["HTML", "SCSS", "jQuery"],
+    visit: "https://random-movie-quotes.vercel.app/",
+    github: "https://github.com/Pilvorm/Random-Movie-Quote",
   },
   {
     thumbnail: "Documentation",
