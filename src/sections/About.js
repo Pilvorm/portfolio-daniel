@@ -8,21 +8,21 @@ import {
   FaPhp,
   FaLaravel,
   FaGithub,
-  FaGitlab,
   FaFigma,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
   SiCypress,
   SiTailwindcss,
-  SiPostman,
   SiJquery,
   SiRedux,
   SiMysql,
   SiAdobephotoshop,
   SiAdobelightroom,
   SiAdobepremierepro,
+  SiShopify
 } from "react-icons/si";
+import { GrWordpress } from "react-icons/gr";
 
 import { certificationData } from "../data";
 
@@ -77,11 +77,11 @@ const About = () => {
             className="font-[Baskerville-BT-Roman] text-xl text-center md:text-justify"
             style={animate.right}
           >
-            Hello! I am a computer science fresh graduate focusing on front-end web development. I
-            have always found designing fun, but bringing designs to life for
-            people to see and use really gives me a satisfying feeling. That
-            feeling pushed me to learn more about web development and how I can
-            improve my work. I also enjoy movies, music, and video games!
+            Passionate Software Developer with hands-on experience building
+            dynamic web applications using modern JavaScript frameworks and
+            e-commerce platforms. Detail-oriented with a strong focus on design,
+            user experience, and continuous learning in fast-paced,
+            collaborative environments.
           </p>
         </div>
 
@@ -104,15 +104,15 @@ const About = () => {
             <SiTailwindcss size={50} title="Tailwind" />{" "}
             <FaReact size={50} title="React.js" />{" "}
             <SiNextdotjs size={50} title="Next.js" />
+            <SiShopify size={50} title="Shopify" />
+            <GrWordpress size={50} title="WordPress" />
             <SiJquery size={50} title="jQuery" />{" "}
             <SiRedux size={50} title="Redux" />
             <SiCypress size={50} title="Cypress" />
             <FaPhp size={50} title="php" />{" "}
             <FaLaravel size={50} title="Laravel" />{" "}
             <SiMysql size={50} title="MySQL" />
-            <SiPostman size={50} title="Postman" />
             <FaGithub size={50} title="GitHub" />{" "}
-            <FaGitlab size={50} title="GitLab" />{" "}
             <FaFigma size={50} title="Figma" />{" "}
             <SiAdobephotoshop size={50} title="Adobe Photoshop" />{" "}
             <SiAdobelightroom size={50} title="Adobe Lightroom" />{" "}
