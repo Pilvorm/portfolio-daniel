@@ -1,33 +1,38 @@
-import './App.css';
-import { useRef } from 'react';
+import "./App.css";
+import { useRef } from "react";
 
-import Hero from './sections/Hero';
-import About from './sections/About';
-import Projects from './sections/Projects';
-import Contact from './sections/Contact';
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
-
   const about = useRef(null);
   const project = useRef(null);
   const contact = useRef(null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
-      top:  elementRef.current.offsetTop - 150,
-      behavior: 'smooth'
-    })
-  }
+      top: elementRef.current.offsetTop - 150,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="App">
-      <nav className='fixed top-0 left-0 right-0 flex justify-center px-8 py-6'>
-        <ul className='font-[Pangea-Light] flex gap-12'>
-          <a onClick={() => scrollToSection(about)}>About</a>
-          <a onClick={() => scrollToSection(project)}>Projects</a>
-          <a onClick={() => scrollToSection(contact)}>Contact</a>
+      <nav className="fixed top-0 left-0 right-0 flex justify-center px-8 py-6">
+        <ul className="font-[Pangea-Light] flex gap-12">
+          <li className="link-hover">
+            <button onClick={() => scrollToSection(about)}>About</button>
+          </li>
+          <li className="link-hover">
+            <button onClick={() => scrollToSection(project)}>Projects</button>
+          </li>
+          <li className="link-hover">
+            <button onClick={() => scrollToSection(contact)}>Contact</button>
+          </li>
         </ul>
       </nav>
 
@@ -44,8 +49,8 @@ function App() {
       <div ref={contact}>
         <Contact />
       </div>
-      
-      <Analytics/>
+
+      <Analytics />
     </div>
   );
 }
