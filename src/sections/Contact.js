@@ -45,12 +45,12 @@ function Contact() {
       </h2>
       <div className="socials-list w-[80%] sm:w-[100%] flex max-sm:flex-col sm:flex-wrap justify-start sm:justify-center gap-14 text-xl">
         <a
-          href="mailto:daniel.sumarly@binus.ac.id"
+          href="mailto:danielemerald@ymail.com"
           className="social flex gap-5 items-center"
           style={animate.right}
         >
           <AiOutlineMail />
-          <p>daniel.sumarly@binus.ac.id</p>
+          <p>danielemerald@ymail.com</p>
         </a>
 
         <a
