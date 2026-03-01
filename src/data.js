@@ -69,7 +69,7 @@ export const projectData = [
     thumbnail: "spacetourism",
     title: "Space Tourism",
     description: "Go to outer space.",
-    tools: ["Next.js", "Tailwind", "GSAP", "Framer Motion"],
+    tools: ["Next.js", "Tailwind", "GSAP", "Motion"],
     visit: "https://space-tourism-sand-six.vercel.app/",
     github: "https://github.com/Pilvorm/space-tourism",
   },
@@ -80,6 +80,14 @@ export const projectData = [
     tools: ["React", "SCSS", "Bootstrap"],
     visit: "https://notes-app-git-master-pilvorms-projects.vercel.app/",
     github: "https://github.com/Pilvorm/notes-app",
+  },
+  {
+    thumbnail: "photosnap",
+    title: "Photosnap",
+    description: "A platform for photographers and visual storytellers.",
+    tools: ["Next.js", "Tailwind", "Motion"],
+    visit: "https://photosnap-khaki.vercel.app/",
+    github: "https://github.com/Pilvorm/photosnap",
   },
   {
     thumbnail: "littlelemon",
@@ -165,15 +173,15 @@ export const projectData = [
   //   visit: "https://survey-form-ecru.vercel.app/",
   //   github: "https://github.com/Pilvorm/Survey-Form",
   // },
-  {
-    thumbnail: "lego",
-    title: "Product Landing Page",
-    description:
-      "A landing page of the video game LEGO Star Wars: The Skywalker Saga.",
-    tools: ["HTML", "CSS"],
-    visit: "https://legoproductlanding.netlify.app/",
-    github: "https://github.com/Pilvorm/Product-Landing",
-  },
+  // {
+  //   thumbnail: "lego",
+  //   title: "Product Landing Page",
+  //   description:
+  //     "A landing page of the video game LEGO Star Wars: The Skywalker Saga.",
+  //   tools: ["HTML", "CSS"],
+  //   visit: "https://legoproductlanding.netlify.app/",
+  //   github: "https://github.com/Pilvorm/Product-Landing",
+  // },
   // {
   //   thumbnail: "TributePageOld",
   //   title: "Cordae Tribute Page (Legacy)",
