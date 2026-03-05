@@ -90,6 +90,14 @@ export const projectData = [
     github: "https://github.com/Pilvorm/photosnap",
   },
   {
+    thumbnail: "dictionary",
+    title: "Dictionary",
+    description: "Online dictionary for searching word definitions, pronunciations, and meanings.",
+    tools: ["Next.js", "Tailwind", "Motion"],
+    visit: "https://dictionary-zeta-five.vercel.app/",
+    github: "https://github.com/Pilvorm/dictionary/",
+  },
+  {
     thumbnail: "littlelemon",
     title: "Little Lemon",
     description: "Landing page of a restaurant allowing online reservations.",
@@ -149,14 +157,14 @@ export const projectData = [
     visit: "https://hishot.himtibinus.or.id/",
     github: "https://github.com/himtibinus",
   },
-  {
-    thumbnail: "Quote",
-    title: "Random Movie Quote Generator",
-    description: "Get a random quote from iconic movies!",
-    tools: ["HTML", "SCSS", "jQuery"],
-    visit: "https://random-movie-quotes.vercel.app/",
-    github: "https://github.com/Pilvorm/Random-Movie-Quote",
-  },
+  // {
+  //   thumbnail: "Quote",
+  //   title: "Random Movie Quote Generator",
+  //   description: "Get a random quote from iconic movies!",
+  //   tools: ["HTML", "SCSS", "jQuery"],
+  //   visit: "https://random-movie-quotes.vercel.app/",
+  //   github: "https://github.com/Pilvorm/Random-Movie-Quote",
+  // },
   {
     thumbnail: "Documentation",
     title: "C Language Documentation",
