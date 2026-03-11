@@ -66,6 +66,14 @@ export const skillData = [
 
 export const projectData = [
   {
+    thumbnail: "galleria",
+    title: "Galleria",
+    description: "Step into the world’s most famous paintings.",
+    tools: ["Next.js", "Tailwind", "Motion"],
+    visit: "https://galleria-theta.vercel.app/",
+    github: "https://github.com/Pilvorm/galleria",
+  },
+  {
     thumbnail: "spacetourism",
     title: "Space Tourism",
     description: "Go to outer space.",
