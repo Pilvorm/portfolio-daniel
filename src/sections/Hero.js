@@ -15,25 +15,7 @@ const Hero = () => {
       <p className="font-[Baskerville-BT-Roman] italic text-3xl">
         Front-End Developer
       </p>
-      {/* <motion.div
-        initial={{ opacity: 0, y: "50" }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 1,
-          delay: 1,
-          ease: "easeInOut",
-          type: "spring",
-          stiffness: 30,
-        }}
-      >
-        <a
-          href={CV}
-          download="CV Daniel Sumarly.pdf"
-          className="cv-btn from-bottom font-[Pangea-Medium] flex items-center gap-3 px-8 py-2"
-        >
-          Download CV <AiOutlineDownload size={22} />
-        </a>
-      </motion.div> */}
+
     </motion.div>
   );
 };
