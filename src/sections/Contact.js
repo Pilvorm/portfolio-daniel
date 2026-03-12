@@ -2,7 +2,6 @@ import React from "react";
 import {
   AiOutlineMail,
   AiFillLinkedin,
-  AiOutlineInstagram,
 } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 
