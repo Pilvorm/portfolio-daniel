@@ -15,7 +15,7 @@ const Hero = () => {
       <p className="font-[Baskerville-BT-Roman] italic text-3xl">
         Front-End Developer
       </p>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: "50" }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -33,7 +33,7 @@ const Hero = () => {
         >
           Download CV <AiOutlineDownload size={22} />
         </a>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };
