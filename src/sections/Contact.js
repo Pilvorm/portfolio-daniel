@@ -26,6 +26,10 @@ function Contact() {
       transition:
         "transform 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s, opacity 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s, color 0.125s ease-in-out",
     },
+    opacity: {
+      opacity: isInView ? 1 : 0,
+      transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+    },
   };
 
   return (
@@ -47,7 +51,7 @@ function Contact() {
         <a
           href="mailto:danielemerald@ymail.com"
           className="social flex gap-5 items-center"
-          style={animate.right}
+          style={animate.opacity}
         >
           <AiOutlineMail />
           <p>danielemerald@ymail.com</p>
@@ -58,7 +62,7 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
           className="social flex gap-5 items-center"
-          style={animate.right}
+          style={animate.opacity}
         >
           <AiFillLinkedin />
           <p>danielemerald</p>
@@ -69,21 +73,10 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
           className="social flex gap-5 items-center"
-          style={animate.left}
+          style={animate.opacity}
         >
           <FaGithub />
           <p>Pilvorm</p>
-        </a>
-
-        <a
-          href="https://www.instagram.com/danielemrld/"
-          target="_blank"
-          rel="noreferrer"
-          className="social flex gap-5 items-center"
-          style={animate.left}
-        >
-          <AiOutlineInstagram />
-          <p>@danielemrld</p>
         </a>
       </div>
     </div>
